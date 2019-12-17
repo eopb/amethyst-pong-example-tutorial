@@ -4,10 +4,6 @@ version = "0.1.0"
 authors = []
 edition = "2018"
 
-[dependencies]
-amethyst = "0.12"
-
-[features]
-empty = ["amethyst/empty"]
-# metal = ["amethyst/metal"]
-vulkan = ["amethyst/vulkan"]
+[dependencies.amethyst]
+version = "0.13"
+features = ["vulkan"]
