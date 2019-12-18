@@ -1,4 +1,4 @@
 (
-  title: "amethyst-pong-example-tutorial",
+  title: "Pong!",
   dimensions: Some((500, 500)),
 )
